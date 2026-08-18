@@ -1,0 +1,3 @@
+distribution_id,client_id,client_name,period,distributed_amount,distribution_status
+D012,C004,Client D,2026-03,2940.0,COMPLETED
+D013,C005,Client E,2026-03,823.2,PENDING

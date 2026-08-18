@@ -1,0 +1,7 @@
+discrepancy_type,count,affected_clients
+Calculation / business-rule error,1,C011
+Duplicate distribution record,1,C007
+Missing distribution record,1,C005
+Rounding / amount mismatch,1,C002
+Unexpected / orphan output,1,C013
+TOTAL,5,"C002, C005, C007, C011, C013"

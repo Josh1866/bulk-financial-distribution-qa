@@ -1,0 +1,6 @@
+discrepancy_type,client_id,client_name,expected_amount,distributed_amount,variance,source_record_count,output_record_count,details
+Rounding / amount mismatch,C002,Client B,5145.74,5145.73,-0.01,1,1,Distributed 5145.73 differs from expected 5145.74 by -0.01
+Missing distribution record,C005,Client E,2940.00,,,1,0,Source calculation exists but distribution output is missing
+Duplicate distribution record,C007,Client G,44100.00,44100.00,0.00,1,2,2 output rows found; expected exactly 1
+Calculation / business-rule error,C011,Client K,-196.00,0.00,196.00,1,1,Distributed 0.00 differs from expected -196.00 by 196.00
+Unexpected / orphan output,C013,Client M,,320.00,,0,1,Distribution output exists with no source calculation

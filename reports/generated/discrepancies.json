@@ -1,0 +1,57 @@
+[
+  {
+    "discrepancy_type": "Rounding / amount mismatch",
+    "client_id": "C002",
+    "client_name": "Client B",
+    "expected_amount": "5145.74",
+    "distributed_amount": "5145.73",
+    "variance": "-0.01",
+    "source_record_count": "1",
+    "output_record_count": "1",
+    "details": "Distributed 5145.73 differs from expected 5145.74 by -0.01"
+  },
+  {
+    "discrepancy_type": "Missing distribution record",
+    "client_id": "C005",
+    "client_name": "Client E",
+    "expected_amount": "2940.00",
+    "distributed_amount": "",
+    "variance": "",
+    "source_record_count": "1",
+    "output_record_count": "0",
+    "details": "Source calculation exists but distribution output is missing"
+  },
+  {
+    "discrepancy_type": "Duplicate distribution record",
+    "client_id": "C007",
+    "client_name": "Client G",
+    "expected_amount": "44100.00",
+    "distributed_amount": "44100.00",
+    "variance": "0.00",
+    "source_record_count": "1",
+    "output_record_count": "2",
+    "details": "2 output rows found; expected exactly 1"
+  },
+  {
+    "discrepancy_type": "Calculation / business-rule error",
+    "client_id": "C011",
+    "client_name": "Client K",
+    "expected_amount": "-196.00",
+    "distributed_amount": "0.00",
+    "variance": "196.00",
+    "source_record_count": "1",
+    "output_record_count": "1",
+    "details": "Distributed 0.00 differs from expected -196.00 by 196.00"
+  },
+  {
+    "discrepancy_type": "Unexpected / orphan output",
+    "client_id": "C013",
+    "client_name": "Client M",
+    "expected_amount": "",
+    "distributed_amount": "320.00",
+    "variance": "",
+    "source_record_count": "0",
+    "output_record_count": "1",
+    "details": "Distribution output exists with no source calculation"
+  }
+]

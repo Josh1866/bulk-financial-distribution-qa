@@ -1,0 +1,2 @@
+distribution_id,client_id,client_name,period,expected_net_amount,distributed_amount,variance
+D006,C002,Client B,2026-02,5145.74,5145.76,0.02

@@ -1,0 +1,13 @@
+client_id,client_name,source_amount,fee_pct,expected_net_amount
+C001,Client A,10000.00,2,9800.00
+C002,Client B,5250.75,2,5145.74
+C003,Client C,875.00,2,857.50
+C004,Client D,12340.10,2,12093.30
+C005,Client E,3000.00,2,2940.00
+C006,Client F,999.99,2,979.99
+C007,Client G,45000.00,2,44100.00
+C008,Client H,150.00,2,147.00
+C009,Client I,2500.50,2,2450.49
+C010,Client J,7777.77,2,7622.21
+C011,Client K,-200.00,2,-196.00
+C012,Client L,6000.00,2,5880.00

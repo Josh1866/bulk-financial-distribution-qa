@@ -1,0 +1,10 @@
+2026-06-14 02:14:07 INFO BatchDistributionJob - Starting distribution run for period 2026-06
+2026-06-14 02:14:09 INFO BatchDistributionJob - Loaded 4,812 client records for processing
+2026-06-14 02:14:22 ERROR BatchDistributionJob - Failed to process client_id=C0453, distribution skipped
+2026-06-14 02:14:22 ERROR BatchDistributionJob - java.lang.ArithmeticException: / by zero
+    at com.x.finance.distribution.FeeCalculator.applyFee(FeeCalculator.java:87)
+    at com.x.finance.distribution.DistributionProcessor.process(DistributionProcessor.java:142)
+    at com.x.finance.distribution.BatchDistributionJob.run(BatchDistributionJob.java:64)
+2026-06-14 02:14:22 WARN BatchDistributionJob - Client C0453 has fee_pct=NULL for period 2026-06
+2026-06-14 02:14:23 INFO BatchDistributionJob - Continuing batch, 4,811 of 4,812 records processed successfully
+2026-06-14 02:14:45 INFO BatchDistributionJob - Batch complete. 1 record failed, 4,811 succeeded.
